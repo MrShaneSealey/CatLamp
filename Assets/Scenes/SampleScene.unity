@@ -148,6 +148,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6195018313661350089, guid: 1c9516ab72b18fb4aadc68c751b6685d,
         type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.0000002
+      objectReference: {fileID: 0}
+    - target: {fileID: 6195018313661350089, guid: 1c9516ab72b18fb4aadc68c751b6685d,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.0000002
+      objectReference: {fileID: 0}
+    - target: {fileID: 6195018313661350089, guid: 1c9516ab72b18fb4aadc68c751b6685d,
+        type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
@@ -169,7 +179,7 @@ PrefabInstance:
     - target: {fileID: 6195018313661350089, guid: 1c9516ab72b18fb4aadc68c751b6685d,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 6195018313661350089, guid: 1c9516ab72b18fb4aadc68c751b6685d,
         type: 3}
@@ -179,7 +189,7 @@ PrefabInstance:
     - target: {fileID: 6195018313661350089, guid: 1c9516ab72b18fb4aadc68c751b6685d,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 6195018313661350089, guid: 1c9516ab72b18fb4aadc68c751b6685d,
         type: 3}
@@ -2090,7 +2100,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1176903341}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 474718082}
+        m_TargetAssemblyTypeName: MenuController, Assembly-CSharp
+        m_MethodName: Toggle
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
 --- !u!114 &1176903341
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8241,8 +8263,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: dcdc43f7a0ad67b4ab3e3db38233dfae, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4

@@ -16,11 +16,16 @@ public class MenuController : MonoBehaviour
     void hidePanel()
     {
         menu.SetActive(false);
+
+        Debug.Log("menu false");
     }
 
     void unhidePanel()
     {
         menu.SetActive(true);
+        
+        Debug.Log("menu true");
+
     }
 
     public void Toggle()
