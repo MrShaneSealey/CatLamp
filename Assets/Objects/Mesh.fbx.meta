@@ -1,14 +1,9 @@
 fileFormatVersion: 2
-guid: acfc89c2f78bc214190e635b7760031f
+guid: c9047ff084fdbc541b0ba5b49e73f974
 ModelImporter:
   serializedVersion: 21300
   internalIDToNameTable: []
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Grass
-    second: {fileID: 2100000, guid: 60f0d8d62aab8c04894d1221b4386c1b, type: 2}
+  externalObjects: {}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -37,7 +32,7 @@ ModelImporter:
     extraExposedTransformPaths: []
     extraUserProperties: []
     clipAnimations: []
-    isReadable: 1
+    isReadable: 0
   meshes:
     lODScreenPercentages: []
     globalScale: 1
